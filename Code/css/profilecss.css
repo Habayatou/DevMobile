@@ -1,0 +1,62 @@
+body {
+    background: #eaeef8;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8;
+  }
+.labels {
+	font-size: 1.4rem;
+	line-height: 1.4rem;
+	vertical-align: top;
+	margin-bottom: .5rem;
+    color: #66748C;
+    font-weight: 540;
+  }
+  input {
+	background-color: #eee;
+	border: solid;
+}
+.container{
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+}
+  .profile-button {
+    background: #BA68C8;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .profile-button:hover {
+    background: #682773;
+  }
+  
+  .profile-button:focus {
+    background: #682773;
+    box-shadow: none;
+  }
+  
+  .profile-button:active {
+    background: #682773;
+    box-shadow: none;
+  }
+  
+  .back:hover {
+    color: #682773;
+    cursor: pointer;
+  }
+  .action-button {
+    width: 150px;
+    background: #000000;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 15px 5px 15px 5px;
+    margin: 10px 0px 15px 5px;
+    float: right
+}
